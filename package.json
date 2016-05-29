@@ -5,7 +5,7 @@
   "scripts": {
     "production": "webpack -p",
     "start": "npm i && webpack && nodemon app.js",
-    "postinstall": "webpack -p --config webpack.config.js --progress"
+    "webpack": "webpack --colors --progress --watch"
   },
   "dependencies": {
     "babel-core": "^6.9.0",
