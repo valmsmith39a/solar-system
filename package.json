@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm i && webpack && nodemon app.js",
+    "start": "npm i && webpack && node ./bin/www",
     "webpack": "webpack --colors --progress --watch"
   },
   "dependencies": {
