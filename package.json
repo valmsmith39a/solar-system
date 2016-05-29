@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "production": "webpack -p",
-    "start": "npm i && webpack && nodemon app.js"
+    "start": "npm i && webpack && nodemon app.js",
+    "webpack": "webpack --colors --progress --watch"
   },
   "dependencies": {
     "babel-core": "^6.9.0",
