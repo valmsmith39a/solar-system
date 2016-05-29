@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "production": "webpack -p",
-    "start": "npm i && webpack && nodemon app.js",
-    "webpack": "webpack --colors --progress --watch"
+    "start": "node ./bin/www && webpack",
+    "webpack": "webpack --watch"
   },
   "dependencies": {
     "babel-core": "^6.9.0",
