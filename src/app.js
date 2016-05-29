@@ -4,8 +4,8 @@ export default class App extends React.Component {
   render() {
     return(
       <div id='hello-div'>
-        Hello from React!!!!!
-        <button>Some button</button>
+        Our Solar System
+        <button>Lift off!</button>
         <ul>
           <li>Mercury</li>
           <li>Venus</li>
